@@ -9,7 +9,7 @@ number = input("Enter Number to send information: ")
 targetPrice = input("Please enter the target price for the stock as a float: ")
 
 
-# This will scrape yahoo finance using the BeautifulSoup library
+# This will scrape yahoo finance using the BeautifulSoup library 
 def getPrice():
     url = 'https://finance.yahoo.com/quote/' + stock + '?p=' + stock + '&.tsrc=fin-srch'
     response = requests.get(url)
